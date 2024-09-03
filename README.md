@@ -65,3 +65,7 @@ cargo run -- --period=6 --port=8081 --connect=127.0.0.1:8080
 
 3. Start the third peer and connect to the first peer:
 cargo run -- --period=7 --port=8082 --connect=127.0.0.1:8080
+
+# OUTPUT
+
+![OUTPUT](outpuut.png)
