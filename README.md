@@ -7,9 +7,9 @@ Rust and Cargo installed. You can install Rust by following the instructions at 
 # Usage
 Clone the repository:
 
-git clone <repository-url>
-cd p2p-Rust
-Build the project:
+1.git clone <repository-url>
+2.cd p2p-Rust
+3.Build the project:
 
 cargo build --release
 Run a peer:
@@ -30,10 +30,14 @@ src
 -utils
 #
 .main.rs: The main entry point of the application.
+
 .network/mod.rs: The module for network-related functionality.
+
 .network/message.rs: Contains message-related structs and enums.
+
 .network/peer.rs: Contains peer-related functions such as
 handling connections and message passing.
+
 .utils.rs: Contains utility functions for logging and timestamp handling.
 
 # Example
