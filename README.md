@@ -8,26 +8,39 @@ Rust and Cargo installed. You can install Rust by following the instructions at 
 Clone the repository:
 
 1.git clone <repository-url>
+
 2.cd p2p-Rust
+
 3.Build the project:
 
 cargo build --release
+
 Run a peer:
 
 cargo run -- --period=<SECONDS> --port=<PORT> [--connect=<ADDRESS>]
+
 --period <SECONDS> : The period in seconds at which to send random messages.
+
 --port <PORT> : The port number on which the peer listens.
+
 --connect <ADDRESS> (optional): The address of another peer to connect to at startup (e.g., 127.0.0.1:8080).
 
 
 # Project Structure
 src
+
  |_network
+ 
    |_message
+   
    |_mod
+   
    |_peer
+   
 -main
+
 -utils
+
 #
 .main.rs: The main entry point of the application.
 
